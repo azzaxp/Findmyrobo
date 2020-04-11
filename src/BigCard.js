@@ -11,7 +11,7 @@ const BigCard = ({yourname})=>{
 	return(
 		<div className="tc pa4 ma2 bw1 bg-light-blue mh10">
 		<img className="grow" src={`https://robohash.org/${yourname}?300x300`} alt="this is your robo" />
-		<p>Dear {yourname}, I am your Robo! Right click and Save me.</p>
+		<p>Dear {yourname}, I am your Robo! Right click and save me.</p>
 		</div>
 		);
 }
